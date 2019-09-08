@@ -1,0 +1,48 @@
+{
+	"NpcID1" : {
+	    "dialogues" :  {
+	    				"d1" :  "Witaj podr�niku",
+	    				"d2" :  "Jestem politykiem. Co s�dzisz o polityce?",
+	    				"d3" :  "Wydaje mi si� ze Ciebie nie lubie" 
+	    				}    				
+	    				,
+	    "options" : {    					
+	     				"o1" : "Witaj",
+	     				"o2" : "Czym si� tutaj zajmujesz?",
+	     				"o3" : "Czy wiesz gdzie znajd� stacj� benzynow�?"
+	    				}
+	    		},
+	    		
+	 "NpcID2" : {
+	    "dialogues" :  {
+	    				"d1" :  "Witaj ciulu",
+	    				"d2" :  "...",
+	    				"d3" :  "Wydaje mi si� ze Ciebie nie lubie" 
+	    				}    				
+	    				,
+	    "options" : {    					
+	     				"o1" : "Witaj",
+	     				"o2" : "Czy mo�esz mi co� opowiedzie� o swoim tylku?",
+	     			    "o3" : "Oczywiscie ze wezme od Ciebie tego banana"
+	    				}
+	    		},
+	  "NpcID3" : {
+	    "dialogues" :  {
+	    				"d1" :  "Aghrrer! Czego Tu znowu chcesz? Kolejny zabłąkany wędrowiec...",
+	    				"d2" :  "Tak. Jest was ostatnio coraz więcej. Żyłem sobie na tej stacji w spokoju przez wiele lat, ale widzę że ostatnio to zrobiła się jakaś ruchliwa trasa",
+	    				"d3" :  "Od ludzi to ja wole się trzymać z daleka",
+	    				"d4" :  "Pozytywnego nastawienia? Chyba nie mam juz ochoty z Tobą rozmawiać",
+	    				"d5" :  "Nie ma tu nic ciekawego. Sam piach..." 
+	    				}    				
+	    				,
+	    "options" : {    					
+	     				"o1" : "Witaj Starcze. Kolejny wędrowiec?",
+	     				"o2" : "Żegnaj starcze... nie chce mi się z Tobą rozmawiać",
+	     			    "o3" : "Co mi możesz opowiedzieć o tej okolicy? Nie wygląda na zamieszkałą",
+	     			    "o4" : "Dlaczego wybrałeś taki samotny styl życia? Przecież istnieją jeszcze chyba jakieś ludzkie osady",
+	     			    "o5" : "Ho ho... brakuje Ci pozytywnego nastawienia",
+	     			    "o6" : "Koniec"
+	    				}
+	    		}
+    
+}

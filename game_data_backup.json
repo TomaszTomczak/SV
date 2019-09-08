@@ -1,0 +1,56 @@
+{
+    "player_info": {
+        "name": "Tomek",
+        "model_path": "asset/models/ratamahatta.js",
+        "model_type": "meshmorph",
+        "texture_path" : "asset/textures/other/ctf_b.png",
+        "desctiption" : "tutaj moze byc model_type: meshmorph lub skinned. poprzednia sciezka do modelu skinned to: asset/models/buffalo2.js. Texture jest valid tylko dla morphmesha",
+        "position": { "x": 0,
+                      "y": 300,
+                      "z": 0}        		
+            
+        },
+     "place_info": {
+     	"name"           : "basic place",
+     	"terrain"        : {
+     						"terrain_model"    :"asset/models/podloze.js",
+     						"sMap"             :"asset/textures/splat_texture.png",
+     						"terrain_diffuse_textures" :["asset/textures/dds/old_grass_texture.dds",
+     													 "asset/textures/dds/dirt-512.dds",
+     													 "asset/textures/dds/rock-512.dds",     													
+     													 "asset/textures/dds/bsand-512.dds"
+     													 ],
+     													 
+     						"terrain_normal_textures"  : [ "asset/textures/dds/old_grass_normal.dds",
+     													   "asset/textures/dds/dirt-512_normal.dds",
+     													   "asset/textures/dds/rock-512_normal.dds",     													
+     													   "asset/textures/dds/bsand-512_normal_2.dds"     													
+     													 ],
+     						"sTextures"                : [ "asset/textures/step11.png",
+     													   "asset/textures/High/kamienie.png"     													
+     													 ],
+     					    "sNormalMaps"              : [ "asset/textures/step10.png",
+     					    							   "asset/textures/High/kamienie_normal.png"      													
+     													 ]
+     	                   },
+     	"ground_objects"   : [],
+     	"static_objects" : [ {"model_path":"asset/models/barrels-1.js", "textured" : true, "texture_path": "asset/textures/dds/oildrum_col.dds" },
+     						 {"model_path":"asset/models/truck-1.js", "textured" : true, "texture_path": "asset/textures/dds/truck_d.dds" },
+     						 {"model_path":"asset/models/truck-2.js", "textured" : true, "texture_path": "asset/textures/dds/veh_kama.dds" },
+     				
+     						 {"model_path":"asset/models/tree.js", "textured" : true, "texture_path": "asset/textures/dds/tree_texture.dds" },
+     						 {"model_path":"asset/models/namioty.js", "textured" : true, "texture_path": "asset/textures/dds/Tent_Defuse.dds" },
+     						 {"model_path":"asset/models/test/house.js", "textured" : false, "texture_path": "" },
+     						 {"model_path":"asset/models/test/plot_metalowy.js", "textured" : false, "texture_path": "" }
+     						],
+     	"other_players" : [],
+     	"npcs" : []    	
+     	
+     },
+     "configuration" : {
+     	"resolution" : [800,600],
+     	"quality"    : {
+     	               "shadow_quality":"High"
+     	               }
+     }
+}

@@ -1,0 +1,27 @@
+{
+	"NpcID1" : {
+			    "onTalk" : {},
+			    "onArea" : {},
+			    "onSteal": {},
+			    "onFight": {},
+			    "onDeal" : {}
+	            },
+	            
+	"NpcID2" : {
+			    "onTalk" : {},
+			    "onArea" : {},
+			    "onSteal": {},
+			    "onFight": {},
+			    "onDeal" : {}
+	            },
+    "NpcID3" : {
+			    "onTalk" : {
+			    			"action" : "UUIDd1"
+			    			},
+			    "onArea" : {},
+			    "onSteal": {},
+			    "onFight": {},
+			    "onDeal" : {}
+	            }
+}
+ 

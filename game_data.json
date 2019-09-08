@@ -1,0 +1,187 @@
+{
+    "player_info": {
+        "name": "Tomek",
+        "model_path": "asset/models/ratamahatta.js",
+        "model_type": "meshmorph",
+        "texture_path" : "asset/textures/other/ctf_b.png",
+        "desctiption" : "tutaj moze byc model_type: meshmorph lub skinned. poprzednia sciezka do modelu skinned to: asset/models/buffalo2.js. Texture jest valid tylko dla morphmesha",
+        "position": { "x": 0,
+                      "y": 300,
+                      "z": 0}        		
+            
+        },
+     "place_info": {
+     	"name"           : "basic place",
+     	"terrain"        : {
+     						"terrain_model"    :"asset/maps/stacja_paliw/models/terrain.js",
+     						"sMap"             :"asset/textures/splat_texture.png",
+     						"terrain_diffuse_textures" :[
+     													 "asset/textures/dds/dirt-512.dds",     													 
+     													 "asset/textures/terrain/sand/sand1.jpg",     
+     													 "asset/textures/dds/old_grass_texture.dds",													
+     													 "asset/textures/dds/bsand-512.dds"
+     													 ],
+     													 
+     						"terrain_normal_textures"  : [ 
+     													   "asset/textures/dds/dirt-512_normal.dds",     													  
+     													   "asset/textures/terrain/sand/sand1_normal.jpg",   
+     													   "asset/textures/dds/old_grass_normal.dds",  													
+     													   "asset/textures/dds/bsand-512_normal_2.dds"     													
+     													 ],
+     						"sTextures"                : [ "asset/textures/High/cracked_concrete2.jpg",
+     					    							   "asset/textures/High/asp.jpg"     													
+     													 ],
+     					    "sNormalMaps"              : [ "asset/textures/High/cracked_concrete_normal.jpg",
+     					    							   "asset/textures/High/bsand-512_normal.jpg"      													
+     													 ]
+     	                   },
+     	"ground_objects"   : [],
+     	"static_objects" : [ 
+     						 
+     						 {"model_path":"asset/maps/stacja_paliw/models/beczki.js", "textured" : true, "texture_path": "asset/textures/dds/oildrum_col.dds" },
+     						 {"model_path":"asset/maps/stacja_paliw/models/peron.js", "textured" : false, "texture_path": "" },
+     						  {"model_path":"asset/maps/stacja_paliw/models/budynek_stacja.js", "textured" : false, "texture_path": "" },
+     						   {"model_path":"asset/maps/stacja_paliw/models/namioty.js", "textured" : false, "texture_path": "" },
+
+     						   {"model_path":"asset/maps/stacja_paliw/models/truck.js", "textured" : false, "texture_path": "" },
+     						    {"model_path":"asset/maps/stacja_paliw/models/zbiornik.js", "textured" : false, "texture_path": "" },
+     						     {"model_path":"asset/maps/stacja_paliw/models/latarnieiznaki.js", "textured" : false, "texture_path": "" }
+     						 
+     						],
+     	"other_players" : [],
+     	"npcs" : [
+     						{
+     						 "name" : "Zbyszek Wspanialy",
+     						 "model_path":"asset/models/npc/alex/alex_model.js", 
+     						 "npcid" : "NpcID2",
+     						 "textured" : true, 
+     						 "texture_path": "",
+     						 "position" : {"x" : 400, "y": 25, "z" : 0 },
+     						 "category": {"talk": false, "area": false, "steal": false, "fight": false, "deal": false} 
+     						 },
+     						 {
+     						 "name" : "Wyjatkowy pech",
+     						 "model_path":"asset/models/npc/alex/alex_model.js", 
+     						 "npcid" : "NpcID3",
+     						 "textured" : true, 
+     						 "texture_path": "",
+     						 "position" : {"x" : 800, "y": 25, "z" : 150 },
+     						 "category" : {"talk": true, "area": false, "steal": false, "fight": false, "deal": false} 
+     						 }
+     			],
+     	"decals" : 
+     	           [
+     	           		{
+     	           		"texture" : "asset/textures/decals/area_decal.png",
+     	           		"position" : {
+     	           						"x": 100,
+     	           						"y": 0,
+     	           						"z": 300
+     	           					 },
+     	           		"size": 	{
+     	           						"x": 800,
+     	           						"y": 800,
+     	           						"z": 800
+     	           					},
+     	           		"rotation": {
+     	           						"x": 1.570796,
+     	           						"y": 0,
+     	           						"z": 0
+     	           					}
+     	           		}
+     	           		,{
+     	           		"texture" : "asset/textures/decals/decal1.png",
+     	           		"position" : {
+     	           						"x": 1000,
+     	           						"y": 0,
+     	           						"z": 500
+     	           					 },
+     	           		"size": 	{
+     	           						"x": 800,
+     	           						"y": 800,
+     	           						"z": 800
+     	           					},
+     	           		"rotation": {
+     	           						"x": 1.570796,
+     	           						"y": 0,
+     	           						"z": 0
+     	           					},
+     	           		"animation": {
+     	           					 "horizontal" : 8,
+     	           					 "vertical" : 1,
+     	           					 "total"   : 8,
+     	           					 "duration": 2
+     	           					 
+     	           					}
+     	           		},
+     	           		{
+     	           		"texture" : "asset/textures/decals/decal_cloud.png",
+     	           		"position" : {
+     	           						"x": 1000,
+     	           						"y": 0,
+     	           						"z": -500
+     	           					 },
+     	           		"size": 	{
+     	           						"x": 800,
+     	           						"y": 800,
+     	           						"z": 800
+     	           					},
+     	           		"rotation": {
+     	           						"x": 1.570796,
+     	           						"y": 0,
+     	           						"z": 0
+     	           					},
+     	           		"animation": {
+     	           					 "horizontal" : 8,
+     	           					 "vertical" : 1,
+     	           					 "total"   : 8,
+     	           					 "duration": 3
+     	           					 
+     	           					}
+     	           		},
+     	           		{
+     	           		"texture" : "asset/textures/decals/decal_bloodsplash.png",
+     	           		"position" : {
+     	           						"x": 1200,
+     	           						"y": 0,
+     	           						"z": -700
+     	           					 },
+     	           		"size": 	{
+     	           						"x": 1200,
+     	           						"y": 800,
+     	           						"z": 1200
+     	           					},
+     	           		"rotation": {
+     	           						"x": -1.570796,
+     	           						"y": 0,
+     	           						"z": 0
+     	           					}
+     	           		},
+     	           		{
+     	           		"texture" : "asset/textures/decals/decal_darth.png",
+     	           		"position" : {
+     	           						"x": 2000,
+     	           						"y": 0,
+     	           						"z": 500
+     	           					 },
+     	           		"size": 	{
+     	           						"x": 1200,
+     	           						"y": 1200,
+     	           						"z": 1200
+     	           					},
+     	           		"rotation": {
+     	           						"x": -1.570796,
+     	           						"y": 0,
+     	           						"z": 0
+     	           					}
+     	           		}
+     	           ]    	
+     	
+     },
+     "configuration" : {
+     	"resolution" : [800,600],
+     	"quality"    : {
+     	               "shadow_quality":"High"
+     	               }
+     }
+}

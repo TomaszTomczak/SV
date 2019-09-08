@@ -1,0 +1,31 @@
+#render_window
+{
+	background-color:red;
+    float: left;
+    height: 85%;
+    width: 75%;
+}
+
+#config_window
+{
+	background-color:yellow;
+    height: 85%;
+	padding-right: 0px;
+
+
+}
+
+#player_info
+{
+	float: left;
+	width: 75%;
+	height: 15%;
+	background-color:blue;
+
+}
+
+#play_button
+{
+	height: 15%;
+	background-color:green;
+}

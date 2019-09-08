@@ -1,0 +1,169 @@
+
+ /*
+ available actions: 
+ 
+ - Show Dialog - pokazuje okno rozmowy z graczem
+ 
+	 { 
+	   "type" : "showDialog",
+	   "dialog" : "d1",
+	   "options" : ["o1","o2","o3"],
+	   "actions" : {
+	   				"o1" : <-- kolejna akcja -->,
+	  				"o2" : <-- kolejna akcja -->,
+	  				"o3" : <-- kolejna akcja -->
+                   }			  			  			  				
+	 }
+ 
+ - Check stats - sprawdza statystyki gracza
+    
+     { 
+        "type" : "checkStats",
+        "statElement" : <-- jaki stat ma byc sprawdzany -->,
+    	"condition"   : <-- oczekiwana wartosc -->, // np. <5, >5, =5 itd
+    	"actions"     : {
+    		        		"true"  : <--kolejna akcja tutaj dla true-->,
+    				    	"false" : <--kolejna akcja tutaj dla false-->
+    				    }
+    }
+    				 
+ - Modify stats - zmienia statystyki gracza
+    
+    { 
+   		"type" : "modifyStats",
+    	"statElement" : <-- jaki stat ma byc modyfikowany -->,
+    	"setTo"       : <--  wartosc -->, // np. +5, -5
+    	"nextAction"  : <-- co dalej sie ma dziac -->    				 				 
+    }
+    				 
+    				 
+ - Say out Loud - npc mowi na glos tak ze wszsycy inni gracze to widza
+ 
+     {
+     	"type" : "sayOutLoud",
+    	"text" : "tekst tego co chcesz powiedziec",
+    	"nextAction" : <--co dalej ma sie dziac-->
+     }
+     
+ - check quest token - sprawdza czy w plecaku znajduje sie identyfikator questa
+	
+	{
+		"type"        : "checkQT",
+		"QT"          : <--quest token number-->,
+		"actions"     : {
+    		        	"true"  : <--kolejna akcja tutaj dla true-->,
+    				   	"false" : <--kolejna akcja tutaj dla false-->
+    				    }
+	} 
+	
+- Give Quest Token - przydziela do plecaka klucz identyfikujacy dany postep w quescie
+
+	{
+		"type"       : "giveQT",
+		"QT"         : <--quest token number-->,
+		"nextAction" : <--co dalej ma sie dziac-->
+	}
+ 
+ - Remove Quest Token - usuwa graczowi QT
+
+	{
+		"type"       : "removeQT",
+		"QT"         : <--quest token number-->,
+		"nextAction" : <--co dalej ma sie dziac-->
+	}
+ 
+ - Random - rzut moneta
+ 
+ 	{
+ 		"type"        : "random",
+ 		"probability" : "0.7", // jesli losowa wartosc bedzie wieksza niz 0.7 to true
+ 		"actions"     : {
+    		        	"true"  : <--kolejna akcja tutaj dla true-->,
+    				   	"false" : <--kolejna akcja tutaj dla false-->
+    				    }
+	}
+	
+	
+- Roll a custom dice
+
+	{
+		"type"  : "rollCustomDice",
+		"sides" : "8", // ilosc scian
+		"nextAction" : <--co dalej ma sie dziac-->  // po przejsciu przez ten obiekt wartosc z kostki jest zapisana do {%diceValue%}
+	}
+	
+- Give an item  -  daj item ziomeczkowi
+
+	{
+		"type"   : "giveItem",
+		"itemID" : <-- numerek itemku z pliku special_items.json -->,
+		"nextAction" : <--co dalej ma sie dziac-->
+	}
+	
+- Check item
+
+	{
+		"type" : "checkItem",
+		"itemID" : <-- numerek itemku z pliku special_items.json -->,
+		"actions"     : {
+    		        	"true"  : <--kolejna akcja tutaj dla true-->,
+    				   	"false" : <--kolejna akcja tutaj dla false-->
+    				    }
+	}	
+	
+- Remove an item  -  daj item ziomeczkowi
+
+	{
+		"type"   : "removeItem",
+		"itemID" : <-- numerek itemku ktory ma user, najlepiej to poprzedzic obiektem checkItem -->,
+		"nextAction" : <--co dalej ma sie dziac po tym -->
+	}
+
+ - End - konczy wszystko
+ 
+	 {
+		 "type" : "END"
+	 }
+	 
+- Checkpoint - punkt od ktorego wznawiany jest kolejny dialog/akcja
+ 	
+ 	 {
+ 	 	"type" : "checkpoint",
+ 	 	"id"   : "234234234234234"
+ 	 }
+ 	 
+- Set checkpoint - ustawienie punktu
+
+	{
+		"type" : "setCheckpoint",
+		"id"   : "id checkpointu ktore ma byc zapisane w graczu"
+	}
+	 
+ 
+ 
+ 
+ 
+ 
+ Zmienne globalne
+ 
+ {%name%}      - imie gracza
+ {%diceValue%} - wartosc rzutu kostki. Przechowuje wartosc do nastepnego rzutu
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */

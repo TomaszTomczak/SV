@@ -1,0 +1,72 @@
+{
+    "static_objects": [
+    					{"name":"box","model_path":"asset/models/basic/box.js", "textured" : true, "texture_path": "asset/textures/step11.png" },
+    					{"name":"kula","model_path":"asset/models/basic/kula.js", "textured" : true, "texture_path": "asset/textures/step11.png" }
+     				
+    				],
+    "plants_trees": {
+				    "trees":          [
+				    					{"name":"tree1","model_path":"asset/models/trees/tree1.js", "textured" : true, "texture_path": "" },
+				    					{"name":"tree2","model_path":"asset/models/trees/tree2.js", "textured" : true, "texture_path": "" },
+				    					{"name":"tree3","model_path":"asset/models/trees/tree3.js", "textured" : true, "texture_path": "" },
+				    					{"name":"tree4","model_path":"asset/models/trees/tree4.js", "textured" : true, "texture_path": "" },
+				    					{"name":"tree5","model_path":"asset/models/trees/tree5.js", "textured" : true, "texture_path": "" },
+				    					{"name":"tree6","model_path":"asset/models/trees/tree6.js", "textured" : true, "texture_path": "" },
+				    					{"name":"tree7","model_path":"asset/models/trees/tree7.js", "textured" : true, "texture_path": "" }
+				    				  ],
+				    "trees_textures": [
+				                     	{"texture_path": "asset/textures/tree_textures/brzoza2.jpg" },
+				                     	{"texture_path": "asset/textures/tree_textures/kora1.jpg" },
+				                     	{"texture_path": "asset/textures/tree_textures/kora2.jpg" },
+				                     	{"texture_path": "asset/textures/tree_textures/kora3.jpg" },
+				                     	{"texture_path": "asset/textures/tree_textures/kora4.jpg" }
+				    				  ]
+    				  },
+    "plants_grass":   {				  
+				  	"grass":          [	{"name":"grass1","model_path":"asset/maps/stacja_paliw/models/trawa.js", "textured" : true, "texture_path": "" }],
+					"grass_textures": [	{"texture_path": "asset/textures/grass_textures/new_grass1.jpg" },
+										{"texture_path": "asset/textures/grass_textures/new_grass2.jpg" },
+										{"texture_path": "asset/textures/grass_textures/new_grass3.jpg" },
+										{"texture_path": "asset/textures/grass_textures/new_grass4.jpg" },
+										{"texture_path": "asset/textures/grass_textures/new_grass5.jpg" },
+										{"texture_path": "asset/textures/grass_textures/new_grass6.jpg" }],
+					"grass_alpha":    [{"texture_path":  "asset/textures/grass_textures/trawa1.jpg" },
+										{"texture_path": "asset/textures/grass_textures/trawa2.jpg" },
+										{"texture_path": "asset/textures/grass_textures/trawa3.jpg" }]
+    },
+    "npcs" : [
+					{
+					 "modelName" : "alex",
+					 "model_path" :"asset/models/npc/alex/alex_model.js",
+					 "texture_path" : ""
+					 }    		
+    		],
+    "decals" : [
+    				{
+    				"decalName" : "DarthVader",
+    				"texture"   :  "asset/textures/decals/decal_darth.png"
+    				}
+    				,
+    				{
+    				"decalName" : "Krew",
+    				"texture"   :  "asset/textures/decals/decal_bloodsplash.png"
+    				},
+    				{
+    				"decalName" : "Pulsujace",
+    				"texture"   :  "asset/textures/decals/decal1.png",
+    				"animation": {
+     	           					 "horizontal" : 8,
+     	           					 "vertical" : 1,
+     	           					 "total"   : 8,
+     	           					 "duration": 2
+     	           					 
+     	           					}
+    				},
+    				
+    				{
+    				"decalName" : "Area",
+    				"texture"   :  "asset/textures/decals/area_decal.png"
+    				}
+    				
+    			]
+}

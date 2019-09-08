@@ -1,0 +1,12 @@
+{
+    "login_info": {
+        "result": "ok",
+        "name": "Tomek",
+        "model_path": "asset/models/ratamahatta.js",
+        "model_type": "meshmorph",
+        "texture_path" : "asset/textures/other/ctf_b.png",
+        "desctiption" : "tutaj moze byc model_type: meshmorph lub skinned. poprzednia sciezka do modelu skinned to: asset/models/buffalo2.js. Texture jest valid tylko dla morphmesha",
+        "uid": "9743a66f914cc249efca164485a19c5c"     
+        }		
+     
+}
